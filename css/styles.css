@@ -380,6 +380,11 @@ article:hover {
     box-shadow: 0 10px 28px #17203314
 }
 
+.placeholder-product:hover {
+    box-shadow: 0 0 28px rgba(0, 189, 231, .45),
+                0 0 18px rgba(236, 10, 166, .55);
+}
+
 .placeholder-image {
     height: 210px;
     margin-bottom: 20px;
