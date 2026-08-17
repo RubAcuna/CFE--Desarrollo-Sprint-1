@@ -19,6 +19,22 @@ body {
     background: var(--surface)
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+.btn,
+.navbar .nav-link,
+.metric,
+.footer-slogan,
+.footer-author {
+    font-family: "Orbitron", "Trebuchet MS", sans-serif !important;
+    letter-spacing: 0.04em;
+}
+
 
 .main-gradiente {
   min-height: 100vh;
