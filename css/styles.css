@@ -193,6 +193,23 @@ article:hover {
     outline: none;
 }
 
+@media (min-width: 992px) {
+    .navbar .container {
+        position: relative;
+    }
+
+    #mainNav {
+        justify-content: flex-end;
+    }
+
+    #mainNav .navbar-nav {
+        position: absolute;
+        left: 50%;
+        margin: 0 !important;
+        transform: translateX(-50%);
+    }
+}
+
 .brand-mark {
     display: inline-grid;
     place-items: center;
