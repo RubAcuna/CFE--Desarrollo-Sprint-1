@@ -167,15 +167,22 @@ article:hover {
 }
 .navbar .nav-link {
     color: #ffffffc7;
-    font-size:3 rem;
+    font-size: 1rem;
     padding: 0.5rem 1rem;
     margin-left: 0.5rem;
+    border-radius: 10px;
+    transition: color .2s ease;
 }
 
+.navbar .nav-link.active {
+    color: #ec0aa6 !important;
+    opacity: 1;
+}
 
-.navbar .nav-link.active,
-.navbar .nav-link:hover {
-    color: #fff
+.navbar .nav-link:hover,
+.navbar .nav-link:focus-visible {
+    color: #ec0aa6;
+    outline: none;
 }
 
 .brand-mark {
@@ -255,6 +262,47 @@ article:hover {
     display: flex;
     flex-direction: column;
     box-shadow: 0 8px 18px rgba(0, 189, 231, .2);
+}
+
+.cart-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0 18px;
+}
+
+.cart-link {
+    position: relative;
+    display: inline-grid;
+    place-items: center;
+    width: 42px;
+    height: 42px;
+    text-decoration: none;
+}
+
+.cart-icon {
+    display: block;
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.carrito-contador {
+    position: absolute;
+    right: -6px;
+    bottom: -5px;
+    display: grid;
+    place-items: center;
+    min-width: 22px;
+    height: 22px;
+    padding: 0 6px;
+    color: #fff;
+    background: #ec0aa6;
+    border: 2px solid #14213d;
+    border-radius: 999px;
+    font-size: .72rem;
+    font-weight: 800;
+    line-height: 1;
+    box-shadow: 0 3px 10px rgba(0, 189, 231, .45);
 }
 
 .metric-button {
