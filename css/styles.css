@@ -405,16 +405,26 @@ article:hover {
 }
 
 .placeholder-product .btn-primary {
-    background-color: #ec0aa6;
-    border-color: #ec0aa6;
+    background-color: #f06dce;
+    border-color: #f06dce;
     color: #fff;
 }
 
 .placeholder-product .btn-primary:hover,
 .placeholder-product .btn-primary:focus-visible {
-    background-color: #5c0659;
-    border-color: #5c0659;
+    background-color: #3b0238;
+    border-color: #3b0238;
     color: #fff;
+}
+
+.placeholder-product h3 {
+    min-height: 2.4em;
+    line-height: 1.2;
+}
+
+.placeholder-product p {
+    min-height: 3em;
+    line-height: 1.5;
 }
 
 .placeholder-product .eyebrow {
