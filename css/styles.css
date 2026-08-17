@@ -410,8 +410,8 @@ article:hover {
 }
 
 .placeholder-product .btn-primary {
-    background-color: #f06dce;
-    border-color: #f06dce;
+    background-color: #5c0659;
+    border-color: #5c0659;
     color: #fff;
     font-family: "Trebuchet MS", Arial, sans-serif;
     font-weight: 800;
@@ -441,11 +441,15 @@ article:hover {
     color: #ec0aa6;
 }
 
-.section-gradient .placeholder-product h3,
 .section-gradient .placeholder-product p,
 .section-gradient .placeholder-product strong,
 .section-gradient .placeholder-product .eyebrow {
     color: #fff !important;
+}
+
+.section-gradient .placeholder-product h3 {
+    color: #ec0aa6 !important;
+    font-weight: 800;
 }
 
 .benefits {
