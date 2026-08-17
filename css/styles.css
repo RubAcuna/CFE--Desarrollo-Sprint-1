@@ -35,6 +35,14 @@ article {
     transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
 }
 
+.separador-celeste {
+    height: 3px;
+    margin: 0;
+    border: 0;
+    background-color: #00bde7;
+    opacity: 1;
+}
+
 article:hover {
     transform: translateY(-6px);
     border-color: #00bde7;
