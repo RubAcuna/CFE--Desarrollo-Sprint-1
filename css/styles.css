@@ -404,6 +404,19 @@ article:hover {
     opacity: 1;
 }
 
+.placeholder-product .btn-primary {
+    background-color: #ec0aa6;
+    border-color: #ec0aa6;
+    color: #fff;
+}
+
+.placeholder-product .btn-primary:hover,
+.placeholder-product .btn-primary:focus-visible {
+    background-color: #5c0659;
+    border-color: #5c0659;
+    color: #fff;
+}
+
 .placeholder-product .eyebrow {
     display: inline-block;
     margin-top: 0;
