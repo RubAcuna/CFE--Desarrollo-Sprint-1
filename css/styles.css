@@ -133,7 +133,7 @@ article:hover {
     padding: 20px 24px;
     border-left: 5px solid #ec0aa6;
     border-right: 5px solid #00bde7;
-    border-radius: 14px;
+    border-radius: 0;
 }
 
 .section-gradient .info-robotica .text-secondary {
