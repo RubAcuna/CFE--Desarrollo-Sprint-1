@@ -581,7 +581,7 @@ article:hover {
 }
 
 .footer {
-    background: linear-gradient(90deg, #5c0659 0%, #14213d 100%);
+    background: linear-gradient(180deg, #5c0659 0%, #14213d 100%);
     color: #aeb7c8;
     min-height: 240px;
 }
