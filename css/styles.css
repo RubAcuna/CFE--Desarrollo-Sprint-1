@@ -36,7 +36,7 @@ article {
 }
 
 .separador-celeste {
-    height: 3px;
+    height: 2px;
     margin: 0;
     border: 0;
     background-color: #00bde7;
@@ -581,7 +581,7 @@ article:hover {
 }
 
 .footer {
-    background: #5c0659;
+    background: linear-gradient(90deg, #5c0659 0%, #14213d 100%);
     color: #aeb7c8;
     min-height: 240px;
 }
