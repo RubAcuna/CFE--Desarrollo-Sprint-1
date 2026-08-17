@@ -408,6 +408,7 @@ article:hover {
     background-color: #f06dce;
     border-color: #f06dce;
     color: #fff;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .placeholder-product .btn-primary:hover,
