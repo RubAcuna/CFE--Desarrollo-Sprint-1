@@ -397,6 +397,13 @@ article:hover {
     opacity: 1;
 }
 
+.product-price-divider {
+    margin: 16px 0;
+    border: 0;
+    border-top: 2px solid #5c0659;
+    opacity: 1;
+}
+
 .placeholder-product .eyebrow {
     display: inline-block;
     margin-top: 0;
