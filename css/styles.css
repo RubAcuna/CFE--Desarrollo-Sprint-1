@@ -374,7 +374,7 @@ article:hover {
 
 .placeholder-product {
     height: 100%;
-    background: #fff;
+    background: #14213d;
     border-radius: 18px;
     overflow: hidden;
     box-shadow: 0 10px 28px #17203314
@@ -443,8 +443,9 @@ article:hover {
 
 .section-gradient .placeholder-product h3,
 .section-gradient .placeholder-product p,
-.section-gradient .placeholder-product strong {
-    color: #3b0238 !important;
+.section-gradient .placeholder-product strong,
+.section-gradient .placeholder-product .eyebrow {
+    color: #fff !important;
 }
 
 .benefits {
