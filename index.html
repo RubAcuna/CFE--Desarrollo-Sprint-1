@@ -370,7 +370,39 @@
                     </div>
                 </div>
             </section>
-            <div class="modal fade" id="projectInfoModal" tabindex="-1">
+            <div class="modal fade robotech-modal" id="entregaModal" tabindex="-1" aria-labelledby="entregaModalTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered"><div class="modal-content">
+                    <div class="modal-header"><div class="modal-heading">
+                        <div class="modal-benefit-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path class="icon-main" d="M3 7h11v10H3z M14 11h4l3 3v3h-7z"/><circle class="icon-accent" cx="7" cy="18" r="2"/><circle class="icon-accent" cx="18" cy="18" r="2"/></svg></div>
+                        <h2 class="modal-title fs-4" id="entregaModalTitle">Entrega inmediata</h2>
+                    </div><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button></div>
+                    <div class="modal-body"><p>Preparamos y despachamos los productos disponibles con rapidez para reducir los tiempos de espera. Informamos el estado del pedido y coordinamos la entrega de forma clara.</p></div>
+                    <div class="modal-footer"><button type="button" class="btn btn-robotech" data-bs-dismiss="modal">Entendido</button></div>
+                </div></div>
+            </div>
+
+            <div class="modal fade robotech-modal" id="costosModal" tabindex="-1" aria-labelledby="costosModalTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered"><div class="modal-content">
+                    <div class="modal-header"><div class="modal-heading">
+                        <div class="modal-benefit-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path class="icon-main" d="M3 4h9l9 9-8 8-10-10z"/><circle class="icon-accent" cx="8" cy="9" r="2"/></svg></div>
+                        <h2 class="modal-title fs-4" id="costosModalTitle">Costos competitivos</h2>
+                    </div><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button></div>
+                    <div class="modal-body"><p>Ofrecemos precios claros y competitivos para facilitar el acceso a la robótica educativa. Cada producto busca equilibrar calidad, utilidad y una inversión adecuada.</p></div>
+                    <div class="modal-footer"><button type="button" class="btn btn-robotech" data-bs-dismiss="modal">Entendido</button></div>
+                </div></div>
+            </div>
+
+            <div class="modal fade robotech-modal" id="garantiaModal" tabindex="-1" aria-labelledby="garantiaModalTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered"><div class="modal-content">
+                    <div class="modal-header"><div class="modal-heading">
+                        <div class="modal-benefit-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path class="icon-main" d="M12 2l8 4v6c0 5-3.4 8.5-8 10-4.6-1.5-8-5-8-10V6z"/><path class="icon-accent" d="M8 12l3 3 5-6"/></svg></div>
+                        <h2 class="modal-title fs-4" id="garantiaModalTitle">Garantía</h2>
+                    </div><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Cerrar"></button></div>
+                    <div class="modal-body"><p>Respaldamos nuestros productos con garantía de calidad y asistencia ante fallas. Nuestro objetivo es brindar una solución confiable para aprender, construir y experimentar.</p></div>
+                    <div class="modal-footer"><button type="button" class="btn btn-robotech" data-bs-dismiss="modal">Entendido</button></div>
+                </div></div>
+            </div>
+            <div class="modal fade robotech-modal2" id="projectInfoModal" tabindex="-1">
                 <div class="modal-dialog modal-lg modal-dialog-centered">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -378,7 +410,7 @@
                                 data-bs-dismiss="modal"></button>
                         </div>
                         <div class="modal-body">
-                            <p>El proyecto se desarrollará progresivamente en cuatro sprints.</p>
+                            <p class="modal-intro">El proyecto se desarrollará progresivamente en cuatro sprints.</p>
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <div class="sprint-summary"><strong>Sprint 1 · Semanas 1 a 4</strong><span>Inicio,
