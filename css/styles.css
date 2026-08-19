@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600;700;800&display=swap');
 
 :root {
     --primary: #1f4fd6;
@@ -25,13 +25,33 @@ h3,
 h4,
 h5,
 h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.display-1,
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6,
+.lead,
+.subtitle,
+.card-title,
+.modal-title,
 strong,
 .btn,
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
 .navbar .nav-link,
 .metric,
 .footer-slogan,
 .footer-author {
-    font-family: "Orbitron", "Trebuchet MS", sans-serif !important;
+    font-family: "Exo 2", "Trebuchet MS", sans-serif !important;
     letter-spacing: 0.04em;
 }
 
@@ -193,7 +213,7 @@ article:hover {
 }
 .navbar .nav-link {
     color: #ffffffc7;
-    font-family: "Orbitron", "Trebuchet MS", sans-serif;
+    font-family: "Exo 2", "Trebuchet MS", sans-serif;
     font-weight: 600;
     letter-spacing: 0.04em;
     font-size: 1rem;
@@ -461,7 +481,7 @@ article:hover {
     background-color: #5c0659;
     border-color: #5c0659;
     color: #fff;
-    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-family: "Exo 2", "Trebuchet MS", sans-serif;
     font-weight: 800;
     letter-spacing: 0.08em;
 }
@@ -508,7 +528,7 @@ article:hover {
     height: 100%;
     padding: 20px;
     border: 2px solid #ec0aa6;
-    border-radius: 12px;
+    border-radius: 0;
     transition: transform .25s ease, border-color .25s ease, box-shadow .25s ease;
 }
 
@@ -639,7 +659,19 @@ article:hover {
     min-height: 240px;
 }
 
+.footer-top {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) minmax(260px, 1fr);
+    grid-template-areas:
+        "brand contact"
+        "author contact";
+    align-items: start !important;
+    column-gap: 48px;
+    row-gap: 12px;
+}
+
 .footer-brand {
+    grid-area: brand;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -671,6 +703,10 @@ article:hover {
     color: #fff;
     font-size: 1.2rem;
     font-weight: 700;
+}
+
+.footer-contact {
+    grid-area: contact;
 }
 
 .footer-contact address {
@@ -705,6 +741,7 @@ article:hover {
 }
 
 .footer-author {
+    grid-area: author;
     padding-top: 4px;
 }
 
@@ -745,6 +782,15 @@ article:hover {
 
 
 @media(max-width:767px) {
+    .footer-top {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "brand"
+            "author"
+            "contact";
+        row-gap: 22px;
+    }
+
     .floating-card {
         position: static;
         margin-top: 10px
